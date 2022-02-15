@@ -1,3 +1,4 @@
+[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
 # plantnet
 
 Retrives the list of NSW Flora providing its Family (Subfamily), scientific name and common name.
