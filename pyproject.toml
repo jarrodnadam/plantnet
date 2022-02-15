@@ -1,0 +1,23 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "jarrodnadam", email = "jarrodnadam@gmail.com"},
+]
+dependencies = [
+    "requests>=2.18.4",
+    "beautifulsoup4>=4.9.3",
+]
+requires-python = ""
+license = {text = "MIT"}
+
+[project.urls]
+homepage = ""
+
+[tool]
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"

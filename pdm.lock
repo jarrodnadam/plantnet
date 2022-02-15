@@ -1,0 +1,91 @@
+[[package]]
+name = "backports.functools-lru-cache"
+version = "1.3"
+summary = "backports.functools_lru_cache"
+
+[[package]]
+name = "beautifulsoup4"
+version = "4.9.3"
+summary = "Screen-scraping library"
+dependencies = [
+    "soupsieve<2.0,>1.2; python_version < \"3.0\"",
+    "soupsieve>1.2; python_version >= \"3.0\"",
+]
+
+[[package]]
+name = "certifi"
+version = "2021.10.8"
+summary = "Python package for providing Mozilla's CA Bundle."
+
+[[package]]
+name = "chardet"
+version = "3.0.4"
+summary = "Universal encoding detector for Python 2 and 3"
+
+[[package]]
+name = "idna"
+version = "2.6"
+summary = "Internationalized Domain Names in Applications (IDNA)"
+
+[[package]]
+name = "requests"
+version = "2.18.4"
+summary = "Python HTTP for Humans."
+dependencies = [
+    "certifi>=2017.4.17",
+    "chardet<3.1.0,>=3.0.2",
+    "idna<2.7,>=2.5",
+    "urllib3<1.23,>=1.21.1",
+]
+
+[[package]]
+name = "soupsieve"
+version = "1.9.6"
+summary = "A modern CSS selector implementation for Beautiful Soup."
+dependencies = [
+    "backports.functools-lru-cache; python_version < \"3\"",
+]
+
+[[package]]
+name = "urllib3"
+version = "1.22"
+summary = "HTTP library with thread-safe connection pooling, file post, and more."
+
+[metadata]
+lock_version = "3.1"
+content_hash = "sha256:043e24e3716b358edab2a7298a162422c733ac6bcd59096e8ad7402b4dfa1496"
+
+[metadata.files]
+"backports.functools-lru-cache 1.3" = [
+    {file = "backports.functools_lru_cache-1.3-py2.py3-none-any.whl", hash = "sha256:ac661058b4b9c770c0f045a71cf3cafedd1be11071d6116201ee5d7245c61034"},
+    {file = "backports.functools_lru_cache-1.3.tar.gz", hash = "sha256:444a21bcec4ae177da554321f81a78dc879eaa8f6ea9920cb904830585d31e95"},
+]
+"beautifulsoup4 4.9.3" = [
+    {file = "beautifulsoup4-4.9.3-py2-none-any.whl", hash = "sha256:4c98143716ef1cb40bf7f39a8e3eec8f8b009509e74904ba3a7b315431577e35"},
+    {file = "beautifulsoup4-4.9.3-py3-none-any.whl", hash = "sha256:fff47e031e34ec82bf17e00da8f592fe7de69aeea38be00523c04623c04fb666"},
+    {file = "beautifulsoup4-4.9.3.tar.gz", hash = "sha256:84729e322ad1d5b4d25f805bfa05b902dd96450f43842c4e99067d5e1369eb25"},
+]
+"certifi 2021.10.8" = [
+    {file = "certifi-2021.10.8-py2.py3-none-any.whl", hash = "sha256:d62a0163eb4c2344ac042ab2bdf75399a71a2d8c7d47eac2e2ee91b9d6339569"},
+    {file = "certifi-2021.10.8.tar.gz", hash = "sha256:78884e7c1d4b00ce3cea67b44566851c4343c120abd683433ce934a68ea58872"},
+]
+"chardet 3.0.4" = [
+    {file = "chardet-3.0.4-py2.py3-none-any.whl", hash = "sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"},
+    {file = "chardet-3.0.4.tar.gz", hash = "sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae"},
+]
+"idna 2.6" = [
+    {file = "idna-2.6-py2.py3-none-any.whl", hash = "sha256:8c7309c718f94b3a625cb648ace320157ad16ff131ae0af362c9f21b80ef6ec4"},
+    {file = "idna-2.6.tar.gz", hash = "sha256:2c6a5de3089009e3da7c5dde64a141dbc8551d5b7f6cf4ed7c2568d0cc520a8f"},
+]
+"requests 2.18.4" = [
+    {file = "requests-2.18.4-py2.py3-none-any.whl", hash = "sha256:6a1b267aa90cac58ac3a765d067950e7dbbf75b1da07e895d1f594193a40a38b"},
+    {file = "requests-2.18.4.tar.gz", hash = "sha256:9c443e7324ba5b85070c4a818ade28bfabedf16ea10206da1132edaa6dda237e"},
+]
+"soupsieve 1.9.6" = [
+    {file = "soupsieve-1.9.6-py2.py3-none-any.whl", hash = "sha256:feb1e937fa26a69e08436aad4a9037cd7e1d4c7212909502ba30701247ff8abd"},
+    {file = "soupsieve-1.9.6.tar.gz", hash = "sha256:7985bacc98c34923a439967c1a602dc4f1e15f923b6fcf02344184f86cc7efaa"},
+]
+"urllib3 1.22" = [
+    {file = "urllib3-1.22-py2.py3-none-any.whl", hash = "sha256:06330f386d6e4b195fbfc736b297f58c5a892e4440e54d294d7004e3a9bbea1b"},
+    {file = "urllib3-1.22.tar.gz", hash = "sha256:cc44da8e1145637334317feebd728bd869a35285b93cbb4cca2577da7e62db4f"},
+]
